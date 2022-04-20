@@ -1,0 +1,100 @@
+/*all======================================================*/
+
+.awesome{
+    width: 1170px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    font-family: 'Open-sans', sans-serif;
+    text-align: center;
+}
+
+.container-awesome{
+    width: 78%;
+    margin: 0 auto;
+}
+
+    
+/*header
+=========================================================*/
+
+.header-awesome{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title-awesome{
+    margin: 30px;
+    text-transform:uppercase ;
+    font-family: raleway;
+}
+
+.line-awesome{
+    height: 2px;
+    width: 110px;
+    border: none;
+    background: #E72424;
+}
+
+.subtitle-awesome{
+    margin-bottom: 10px;
+    color: gray;
+}
+
+/*Card
+========================================================*/
+.card-main-awesome{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+.card-text-awesome{
+    font-size: 14px;
+    font-family: raleway;
+}
+
+.card-title-awesome{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.card-lamp-awesome{
+        width: 40px;
+        height: 40px;
+        margin: 50px auto;
+        padding: 20px;
+        background-image: url(/AXIT/images/lamp.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        border: 1px solid #f70404;
+        border-radius: 50%;
+}
+
+.card-flash-awesome{
+        width: 40px;
+        height: 40px;
+        margin: 50px auto;
+        padding: 20px;
+        background-image: url(/AXIT/images/flash.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        border: 1px solid #f70404;
+        border-radius: 50%;
+ }
+
+.card-keyboard-awesome{
+        width: 40px;
+        height: 40px;
+        margin: 50px auto;
+        padding: 20px;
+        background-image: url(/AXIT/images/keyboard.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        border: 1px solid #f70404;
+        border-radius: 50%;
+    }

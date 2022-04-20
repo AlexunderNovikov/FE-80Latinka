@@ -1,0 +1,145 @@
+/* 
+body{
+    margin: 0;
+} */
+
+.customers{
+    margin: 0 170px 0 170px;
+    /* border: 1px solid red; */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 18px;
+}
+
+.header-customers-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title-customers{
+    height: 150px;
+    display: flex;
+    margin: 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.subtitle-customers{
+    margin-top: 40px;
+    margin-bottom: 83px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.customers-one{
+    width: auto;
+    /* border: 1px solid red; */
+}
+    
+.customers-two{
+    width: auto;
+    /* border: 1px solid red; */
+    margin: 0 30px;
+}
+
+.customers-three{
+    width: auto;
+    /* border: 1px solid red; */
+}
+
+
+.main-customers-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.content-customers{
+    position: relative;
+    width: auto;
+    height: 180px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    background-color: #E2E2E2;
+    border-radius: 10px;
+}
+
+.content-customers::before{
+    content:""; 
+    position: absolute; 
+    width: 0; 
+    height: 0; 
+    left: 70px;
+    bottom: -30px;
+    border: 15px solid; 
+    border-color: #E2E2E2 transparent transparent #E2E2E2;
+    border-top: 20px solid #E2E2E2;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.line-customers{
+    width: 170px;
+    margin: 0;
+    border-color: #EC7979;
+}
+
+.name-customers{
+    display: flex;
+    margin-top: 46px;
+    margin-bottom: 64px;
+}
+
+.name-manager{
+    margin-left: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.status-face{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.face-three{
+    width: 70px;
+    height: 70px;
+    background-image: url(/AXIT/images/Face3.png);
+    background-repeat: no-repeat;
+}
+
+.face-two{
+    width: 70px;
+    height: 70px;
+    background-image: url(/AXIT/images/Face2.png);
+    background-repeat: no-repeat;   
+}
+
+.face-one{
+    width: 70px;
+    height: 70px;
+    background-image: url(/AXIT/images/Face1.png);
+    background-repeat: no-repeat; 
+}
