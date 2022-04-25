@@ -32,9 +32,12 @@
 
 .header-axit{
     display: flex;
-    position: absolute;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     z-index: 10;
-    width: 1510px;
+    width: 1508px;
     height: 75px;
     background-color: black;
     flex-direction: row;
@@ -49,16 +52,15 @@
 
 
 .banner-axit{
+    max-width: 1508px;
+    margin: 0 auto;
     position: relative;
-    width: 1510px;
     height: 1026px; 
     background-image: url(/AXIT/images/banner.png);
 }
 
 .card-main-banner{
     position: absolute;
-    display: flex;
-    flex-direction: column;
     top: 30%;
     left: 11%;
     max-width: 670px;
@@ -122,11 +124,10 @@ color: #FFFFFF;
     text-transform: uppercase;
 }
 .card-form-banner{
-    position: relative;
+    position: absolute;
     top: 28%;
     left: 57%;
-    width: 470px;
-    /* height: 450px; */
+    /* width: 470px; */
     background-color: #ffffff;
     border-radius: 10px;
 }
@@ -184,21 +185,26 @@ color: #FFFFFF;
 
 
 .social-media{
+    margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    position: relative;
+    /* position: relative; */
     max-width: 1510px;
-    height: 140px;
+    /* height: 140px; */
     background: #F8EFEF;
 }
 
 .main-media{
     max-width: 470px;
-    position: relative;
-    left: 5%;
+    margin: 0 auto;
+    /* position: relative; */
+    /* left: 5%; */
 }
-
+.social-icon{
+    margin: 35px auto;
+}
 .title-media{
     font-family: 'Open Sans';
     font-style: normal;

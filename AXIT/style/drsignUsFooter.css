@@ -1,9 +1,9 @@
-/* * {
-    box-sizing: border-box;
-    margin: 0%;
-} */
 
+.axure-design{
+    max-width: 1508px;
+    margin: 0 auto;
 
+}
 .bunner-axure {
     position: relative;
     background-image: url(/AXIT/images/Design_Bunner.png);
@@ -14,8 +14,8 @@
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    color: white;
-    max-width: 100%;
+    /* color: white;
+    max-width: 100%; */
     position: relative;
     height: 422px;
 }
@@ -81,6 +81,8 @@
 
 
 .contact-us {
+    max-width: 1508px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,21 +124,19 @@
     justify-content: space-between;
 }
 #names {
-    width: 569px;
+    /* width: 569px; */
     height: 38px;
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
-    ;
 }
 #Emails {
-    width: 569px;
+    /* width: 569px; */
     height: 38px;
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
-    ;
 }
 #Passwords {
-    width: 569px;
+    /* width: 569px; */
     height: 38px;
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
@@ -174,8 +174,10 @@ textarea {
 }
 
 .footer-icon-social {
+    max-width: 1508px;
+    margin: 0 auto;
     text-align: center;
-    height: 164px;
+    /* height: 164px; */
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -184,6 +186,7 @@ textarea {
 }
 
 .subtitle-footer {
+    margin: 0 auto 30px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -192,10 +195,14 @@ textarea {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.img-icon-footer {
-    margin: 4%;
+.icon-footer img {
+    margin: 39px 23px;
 }
 
 .icon-footer {
-    width: 700px;
+    display: flex;
+    /* width: 700px; */
+    /* margin-top: 30px; */
+    justify-content: center;
+    align-items: center;
 }

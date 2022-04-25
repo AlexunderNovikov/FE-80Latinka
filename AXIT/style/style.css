@@ -8,3 +8,31 @@
 @import url(pricing.css);
 @import url(drsignUsFooter.css);
 @import url(customers.css);
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 460px) {
+    .social-media{
+        text-align: center;
+    }
+    .main-media{
+        padding: 0 40px;
+    }
+    .social-icon img{
+        width: 7%;
+    }
+    .icon-footer img{
+        width: 5%;
+        margin: 15px;
+    }
+    .subtitle-footer{
+        font-size: 14px;
+        margin: 10%;
+    }
+}

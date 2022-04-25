@@ -1,0 +1,23 @@
+{
+  "name": "fe-80latinka",
+  "version": "1.0.0",
+  "description": "axit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexunderNovikov/FE-80Latinka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexunderNovikov/FE-80Latinka/issues"
+  },
+  "homepage": "https://github.com/AlexunderNovikov/FE-80Latinka#readme",
+  "devDependencies": {
+    "parcel": "^1.12.3",
+    "sass": "^1.50.1"
+  }
+}

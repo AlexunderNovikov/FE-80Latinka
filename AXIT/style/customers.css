@@ -4,8 +4,8 @@ body{
 } */
 
 .customers{
-    margin: 0 170px 0 170px;
-    /* border: 1px solid red; */
+    max-width: 1508px;
+    margin: 0 auto;
     font-family: 'Raleway';
     font-style: normal;
     font-size: 18px;
@@ -37,29 +37,31 @@ body{
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
+    text-align: center;
 }
 
 .customers-one{
-    width: auto;
+    max-width: 319px;
+    margin: 0 15px;
     /* border: 1px solid red; */
 }
     
 .customers-two{
-    width: auto;
+    max-width: 319px;
     /* border: 1px solid red; */
-    margin: 0 30px;
+    margin: 0 15px;
 }
 
 .customers-three{
-    width: auto;
+    max-width: 319px;
+    margin: 0 15px;
     /* border: 1px solid red; */
 }
 
 
 .main-customers-wrapper{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
