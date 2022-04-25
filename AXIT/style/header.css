@@ -52,15 +52,24 @@
 
 
 .banner-axit{
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1508px;
     margin: 0 auto;
     position: relative;
     height: 1026px; 
     background-image: url(/AXIT/images/banner.png);
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .card-main-banner{
-    position: absolute;
+    border: 3px solid red;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
     top: 30%;
     left: 11%;
     max-width: 670px;
@@ -124,12 +133,13 @@ color: #FFFFFF;
     text-transform: uppercase;
 }
 .card-form-banner{
-    position: absolute;
-    top: 28%;
-    left: 57%;
-    /* width: 470px; */
+    border: 3px solid red;
     background-color: #ffffff;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 
@@ -138,25 +148,28 @@ color: #FFFFFF;
     flex-direction: column;
     align-items: center;
 }
-#names {
+.reg-input #names {
     width: 80%;
     height: 50px;
     margin: 3%;
+    outline: none;
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
 }
-#Emails {
+.reg-input #Emails {
     width: 80%;
     height: 50px;
     margin: 3%;
+    outline: none;
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
     ;
 }
-#Passwords {
+.reg-input #Passwords {
     width: 80%;
     height: 50px;
     margin: 3%;
+    outline: none;
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
 }

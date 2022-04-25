@@ -99,6 +99,7 @@
     color: #000000;
 }
 .subtitle-us{
+    text-align: center;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -107,38 +108,44 @@
     color: #86878B;
 }
 .card-input-us {
+    max-width: 1510px; 
     display: flex;
-    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 15%;
 }
 .card-name-us {
-    float: left;
-    height: 254px;
-    margin: 0 5%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: space-between;
+    max-width: 570px;
+    margin: 15px;
 }
-#names {
-    /* width: 569px; */
-    height: 38px;
+.card-message-us{
+    max-width: 570px;
+    margin: 15px;
+}
+  
+ .card-name-us #names {
+    width: 560px;
+    height: 35px;
+    margin-top: 25px;
     border: none;
+    outline: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
 }
-#Emails {
-    /* width: 569px; */
-    height: 38px;
+.card-name-us #Emails {
+    width: 560px;
+    height: 35px;
+    margin-top: 25px;
     border: none;
+    outline: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
 }
-#Passwords {
-    /* width: 569px; */
-    height: 38px;
+.card-name-us #Passwords {
+    width: 560px;
+    height: 35px;
+    margin-top: 25px;
     border: none;
+    outline: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
 }
 
@@ -165,9 +172,10 @@
 
 textarea {
     position: relative;
-    margin-top: 3%;
-    height: 200px;
-    width: 569px;
+    margin-top: 7%;
+    height: 150px;
+    width: 560px;
+    outline: none;
     border: none;
     border-bottom: 1px solid rgba(189, 189, 189, 1);
     resize: none;
@@ -177,7 +185,6 @@ textarea {
     max-width: 1508px;
     margin: 0 auto;
     text-align: center;
-    /* height: 164px; */
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -201,8 +208,6 @@ textarea {
 
 .icon-footer {
     display: flex;
-    /* width: 700px; */
-    /* margin-top: 30px; */
     justify-content: center;
     align-items: center;
 }
